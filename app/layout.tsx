@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "357 성경읽기",
     description: "매일 20분 말씀과 동행하는 성경통독",
-    url: "https://bible-357.vercel.app/
+    url: "https://bible-357.vercel.app/",
     siteName: "357 성경읽기",
     images: [
       {
