@@ -318,7 +318,7 @@ export default function BibleReadingApp() {
               </div>
               <div>
                 <p className="text-xs text-sky-200 font-medium">매일 20분 말씀과 동행하는</p>
-                <h1 className="text-xl font-bold tracking-tight">357 성경읽기</h1>
+                <h1 className="text-xl font-bold tracking-tight">153 성경읽기</h1>
               </div>
             </div>
             <div className="text-right">
