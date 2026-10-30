@@ -391,7 +391,7 @@ export default function BibleReadingApp() {
                 className="flex items-center justify-center gap-1.5 bg-slate-100 text-slate-700 py-3 px-4 rounded-xl font-bold text-sm active:scale-95 transition"
               >
                 <ExternalLink className="w-4 h-4" />
-                유튜브 앱으로 열기
+                유튜브로 보기
               </button>
             </div>
             <p className="text-[11px] text-slate-400 text-center mt-2.5">
