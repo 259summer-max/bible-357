@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Play, CheckCircle2, Circle, BookOpen, ExternalLink, AlertCircle, User, LogOut, Loader2 } from "lucide-react";
 
-const SHEET_ID = "1ys08Lb0ENd5U_SuAsZvLUnw3Y-JA89Z3JV38wWnrTs8";
+const SHEET_ID = "1ifUuglok9v8LyNaQpoHOk9lBFtruLrYgyUmA5DXqgJ0";
 // 👇 일반 창에서 발급받은 Apps Script 웹앱 URL을 여기에 넣어주시면 Members 시트에 실시간 기록됩니다!
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbynjFJlU0fuZfo7S0EUDUkOg8WblcOcJQ_sLnkpX0Z1lXKip0uB_4ofyHnYrIdG_n582w/exec";
 
@@ -283,7 +283,7 @@ export default function BibleReadingApp() {
               <User className="w-4 h-4 text-amber-300" />
               {user ? (
                 <span>
-                  <b className="text-amber-300">{user.name}</b> 님 ({user.pin})
+                  <b className="text-amber-300">{user.name}</b> 님
                 </span>
               ) : (
                 <span>성도 정보를 입력해 주세요</span>
